@@ -1,0 +1,13 @@
+---
+
+- name: CDN edge server with open source stack
+  hosts: all
+  remote_user: root
+
+  roles:
+    - nginx_automatic_https
+#    - common
+#    - nginx
+#    - varnish
+#    - php-fpm
+#    - wordpress

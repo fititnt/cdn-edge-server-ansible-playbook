@@ -1,0 +1,6 @@
+---
+
+# from GitHub, overriding the name and specifying a specific tag
+- src: https://github.com/fititnt/ansible-role-nginx-automatic-https
+  version: master
+  name: "nginx_automatic_https"
